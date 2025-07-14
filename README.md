@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python3 ScanBot.py -u https://example.com -w /path/to/wordlist.txt -r 10 -fs 200,403 -fc 404 -o output.txt
+python3 scanbot.py -u https://example.com -w /path/to/wordlist.txt -r 10 -fs 200,403 -fc 404 -o output.txt
 ```
 
 ### Arguments
