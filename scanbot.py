@@ -23,13 +23,13 @@ DEFAULT_RPS = 10
 
 def print_banner():
     f = Figlet(font='slant')
-    print(CYAN + f.renderText('currate') + RESET)
+    print(CYAN + f.renderText('scanbot') + RESET)
 
 def print_welcome():
     print(CYAN + "="*60 + RESET)
     print(f"{CYAN}Welcome to currate!{RESET}")
     print(f"{CYAN}Use responsibly. Don't overload target servers with too many requests.{RESET}")
-    print(f"{CYAN}Support the project on GitHub: {YELLOW}https://github.com/8TB-Available{RESET}")
+    print(f"{CYAN}Support the project on GitHub: {YELLOW}https://github.com/MicheleMessina-debug{RESET}")
     print(CYAN + "="*60 + RESET + "\n")
 
 def load_endpoints(wordlist_path):
