@@ -18,7 +18,7 @@
 
 ## Installation
 
-1. Clone this repository or download `currate.py`
+1. Clone this repository or download `ScanBot.py`
 
 2. Install required Python packages:
 
