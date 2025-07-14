@@ -1,7 +1,7 @@
 
-# Currate
+# ScanBot
 
-**currate** is a flexible Python tool designed to find web endpoints that do **not** enforce rate limiting, helping security researchers identify potential vulnerabilities related to high request rates.
+**ScanBot** is a flexible Python tool designed to find web endpoints that do **not** enforce rate limiting, helping security researchers identify potential vulnerabilities related to high request rates.
 
 ---
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python3 currate.py -u https://example.com -w /path/to/wordlist.txt -r 10 -fs 200,403 -fc 404 -o output.txt
+python3 ScanBot.py -u https://example.com -w /path/to/wordlist.txt -r 10 -fs 200,403 -fc 404 -o output.txt
 ```
 
 ### Arguments
@@ -66,7 +66,7 @@ Please use **currate** responsibly. Do not abuse or overload servers without exp
 ## Support
 
 If you find this tool useful, consider supporting me on GitHub:
-[https://github.com/8TB-Available](https://github.com/8TB-Available)
+[https://github.com/MicheleMessina-debug](https://github.com/MicheleMessina-debug)
 
 ---
 
